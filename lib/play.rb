@@ -38,9 +38,7 @@ end
 
 
 def play(board)
-  turns = 9
-  until turns ==9
+  9.times do
     turn(board)
-    turns += 1
   end
 end
